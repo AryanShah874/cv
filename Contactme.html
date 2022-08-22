@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h3>Contact Me</h3>
+    <ul>
+        <li>Contact : 1234567890</li>
+        <li>Mail : abc@gmail.com</li>
+        <li>Address :xyz</li>
+    </ul>
+
+<!-- method=post-> whatever we message we get the response sheet -->
+<!-- enctype=text/plain->human readable response -->
+
+    <form action="mailto: aryanwork@gamil.com" method="post" enctype="text/plain">
+        <label for="">Name: </label>
+        <input type="text" name="yourName">
+        <br>
+        <!-- <label for="">Have you read terms and conditions: </label> -->
+        <!-- <input type="checkbox" name="" id=""> -->
+        <!-- <br> -->
+        <!-- <label for="">Password </label> -->
+        <!-- <input type="password" name="" id=""> -->
+        <label for="">Email: </label>
+        <input type="email" name="yourEmail" id="">     <!--name attribute displays in the response email-->
+        <br>
+        <label for="">Your Message: </label>
+        <br>
+        <textarea name="yourMessage" id="" cols="30" rows="10"></textarea>
+        <br>
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
